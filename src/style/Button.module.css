@@ -1,0 +1,38 @@
+
+
+.icon {
+	@apply text-lg m-1.5 cursor-pointer;
+}
+
+.btnPrimary {
+	@apply bg-blue-500 h-12 flex items-center  text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.btnOutline {
+	@apply text-blue-500  h-12 flex items-center border border-blue-500 px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}
+
+
+@media screen and (max-width: 1018px) {
+	.bestBtn {
+		@apply ml-48;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.bestBtn {
+		@apply ml-4;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.bestBtn {
+		@apply ml-16;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.bestBtn {
+		@apply ml-6;
+	}
+}

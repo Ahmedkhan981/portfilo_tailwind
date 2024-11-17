@@ -1,0 +1,52 @@
+
+.section {
+	@apply pt-20 lg:pt-32;
+}
+
+.container {
+	@apply grid gap-8 lg:grid-cols-2 lg:items-stretch;
+}
+
+.infoSection {
+	@apply mb-12 lg:mb-0 lg:flex lg:flex-col;
+}
+
+.heading {
+	@apply text-3xl font-bold lg:max-w-[12ch];
+}
+
+.description {
+	@apply text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch];
+}
+
+.iconsContainer {
+	@apply flex items-center gap-4 mt-0;
+}
+
+.iconLink {
+	@apply flex items-center justify-center w-16 h-16 ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-colors hover:bg-zinc-50 cursor-pointer hover:text-zinc-950;
+}
+
+.icon {
+	@apply w-9 h-9;
+}
+
+.form {
+	@apply xl:pl-10 2xl:pl-20;
+}
+
+.inputGroup {
+	@apply mb-4;
+}
+
+.inputField {
+	@apply w-full border border-gray-300 rounded-md p-2 bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.textArea {
+	@apply resize-y min-h-32 max-h-80;
+}
+
+.submitButton {
+	@apply bg-blue-500 text-white h-12 w-24 py-2 rounded-md text-sm font-medium transition-colors duration-300 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}

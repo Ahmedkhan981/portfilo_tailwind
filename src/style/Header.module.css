@@ -1,0 +1,33 @@
+
+.header {
+	@apply fixed top-0 left-0 w-full h-20 flex items-center z-10 bg-white bg-opacity-30 backdrop-blur-md text-black shadow-lg;
+}
+
+.headerContainer {
+	@apply max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr];
+}
+
+.logo {
+	@apply text-2xl font-bold;
+}
+
+.navbarWrapper {
+	@apply relative md:justify-self-center;
+}
+
+.menuButton {
+	@apply text-2xl font-bold md:hidden z-10 relative;
+}
+
+.menuIcon,
+.closeIcon {
+	@apply transition-all;
+}
+
+.contactButton {
+	@apply btn-primary text-center w-28 max-md:hidden md:justify-self-end;
+}
+
+.btn-primary {
+	@apply bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}

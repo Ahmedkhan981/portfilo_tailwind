@@ -1,0 +1,43 @@
+
+.container {
+	@apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
+}
+
+.lightBackground {
+	@apply bg-opacity-10 p-8 rounded-2xl ;
+  border: 1px solid #fff;
+  background-color: rgb(72 72 75 / 50%);
+}
+.lightBackground:hover {
+  @apply bg-opacity-100;
+    background-color: rgb(72 72 75 / 30%);
+      border: 1px solid #b8b8b8;
+}
+
+.section {
+	@apply pt-20 lg:pt-32;
+}
+
+.introText {
+	@apply mb-4 md:mb-8 md:text-xl text-white leading-relaxed;
+}
+
+.itemsContainer {
+	@apply flex flex-wrap items-center gap-4 md:gap-7;
+}
+
+.aboutItem {
+	@apply text-center;
+}
+
+.numberContainer {
+	@apply flex items-center mb-2;
+}
+
+.numberText {
+	@apply text-2xl font-semibold md:text-4xl;
+}
+
+.itemTitle {
+	@apply text-lg font-medium;
+}

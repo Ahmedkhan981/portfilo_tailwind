@@ -1,0 +1,15 @@
+.footer {
+  @apply flex p-4 bg-gray-800 text-white mt-4;
+}
+
+.contactSection {
+  @apply space-y-2;
+}
+
+.contactHeading {
+  @apply text-lg font-semibold mb-2;
+}
+
+.contactLink {
+  @apply hover:underline;
+}

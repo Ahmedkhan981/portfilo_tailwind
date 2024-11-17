@@ -1,0 +1,73 @@
+
+.heroMain {
+	@apply pt-20 lg:pt-28;
+}
+
+
+.container {
+	@apply px-4 mx-auto   lg:px-8 xl:max-w-6xl lg:grid lg:grid-cols-2 items-center lg:gap-4;
+}
+
+.heading1 {
+	@apply text-5xl mb-6 font-semibold leading-tight tracking-tight text-gray-100 lg:text-[55px] max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch];
+}
+
+.buttonGroup {
+	@apply flex items-center gap-3;
+}
+
+.bestBtn {
+	@apply  md:ml-0; 
+  margin-left:12rem;
+}
+
+.imgBox {
+	@apply pr-7 lg:block;
+}
+
+.imageWrapper {
+	@apply w-full max-w-[480px] ml-auto bg-gradient-to-t from-blue-400 rounded-[60px] overflow-hidden mix-blend-lighten;
+}
+
+.heroImage {
+	@apply w-full h-auto;
+}
+
+@media screen and (max-width: 1018px) {
+	#Hero {
+		display: none;
+	}
+	.heading1 {
+		padding-left: 12rem;
+	}
+	.bestBtn {
+		margin-left: 12rem;
+	}
+}
+
+@media screen and (width: 425px) {
+	.heading1 {
+		padding-left: 1rem;
+	}
+	.bestBtn {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.heading1 {
+		padding-left: 4.5rem;
+	}
+	.bestBtn {
+		margin-left: 4.5rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.heading1 {
+		padding-left: 1.5rem;
+	}
+	.bestBtn {
+		margin-left: 1.5rem;
+	}
+}

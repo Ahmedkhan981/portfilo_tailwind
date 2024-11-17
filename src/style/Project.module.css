@@ -1,0 +1,50 @@
+
+.projectCard {
+  @apply relative p-4 rounded-2xl bg-zinc-900 h-[30rem] hover:bg-zinc-600/50 sm:h-[35rem];
+}
+
+.imgBox {
+  @apply aspect-square rounded-lg mb-4;
+}
+
+.imgCover {
+  @apply w-full h-full object-cover;
+}
+
+.titleName {
+  @apply text-[22px] font-normal mb-3;
+}
+
+.bestDesc {
+  @apply text-zinc-400 text-sm grid items-center px-3 rounded-lg;
+}
+
+.projectLink {
+  @apply flex items-center mt-2 absolute bottom-4 right-4 inset-auto justify-end;
+}
+
+.icon {
+  @apply h-11 w-11 rounded-lg grid place-items-center bg-sky-300 text-zinc-900 shrink-0;
+  font-size: 24px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 375px) {
+  .best-btn {
+    margin-left: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .best-btn {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (width: 425px) {
+  .best-btn {
+    margin-left: 1rem;
+  }
+}
